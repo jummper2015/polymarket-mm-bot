@@ -1,0 +1,9 @@
+cat > .gitignore << 'EOF'
+node_modules/
+dist/
+data/*.json
+data/*.backup
+logs/
+.env
+*.log
+EOF
